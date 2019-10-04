@@ -1,0 +1,1099 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B31003AC18B3FC4D00B847AD /* TiltedBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = B31003AB18B3FC4D00B847AD /* TiltedBlock.m */; };
+		B3D0F00918C66B3F00274B21 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D0F00818C66B3F00274B21 /* InfoViewController.m */; };
+		B3FA7CDF18AC4B5D00F9962A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FA7CDE18AC4B5D00F9962A /* Foundation.framework */; };
+		B3FA7CE118AC4B5D00F9962A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FA7CE018AC4B5D00F9962A /* CoreGraphics.framework */; };
+		B3FA7CE318AC4B5D00F9962A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FA7CE218AC4B5D00F9962A /* UIKit.framework */; };
+		B3FA7CE918AC4B5D00F9962A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3FA7CE718AC4B5D00F9962A /* InfoPlist.strings */; };
+		B3FA7CEB18AC4B5D00F9962A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FA7CEA18AC4B5D00F9962A /* main.m */; };
+		B3FA7CEF18AC4B5D00F9962A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FA7CEE18AC4B5D00F9962A /* AppDelegate.m */; };
+		B3FA7CF218AC4B5D00F9962A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3FA7CF018AC4B5D00F9962A /* Main_iPhone.storyboard */; };
+		B3FA7CF518AC4B5D00F9962A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3FA7CF318AC4B5D00F9962A /* Main_iPad.storyboard */; };
+		B3FA7CF818AC4B5D00F9962A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FA7CF718AC4B5D00F9962A /* ViewController.m */; };
+		B3FA7CFA18AC4B5D00F9962A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3FA7CF918AC4B5D00F9962A /* Images.xcassets */; };
+		B3FA7D0118AC4B5D00F9962A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FA7D0018AC4B5D00F9962A /* XCTest.framework */; };
+		B3FA7D0218AC4B5D00F9962A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FA7CDE18AC4B5D00F9962A /* Foundation.framework */; };
+		B3FA7D0318AC4B5D00F9962A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FA7CE218AC4B5D00F9962A /* UIKit.framework */; };
+		B3FA7D0B18AC4B5D00F9962A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3FA7D0918AC4B5D00F9962A /* InfoPlist.strings */; };
+		B3FA7D0D18AC4B5D00F9962A /* RectangularTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FA7D0C18AC4B5D00F9962A /* RectangularTests.m */; };
+		E53E7ADD196B727100E3FBA0 /* Passage.m in Sources */ = {isa = PBXBuildFile; fileRef = E53E7ADC196B727100E3FBA0 /* Passage.m */; };
+		E53E7ADE196B727100E3FBA0 /* Passage.m in Sources */ = {isa = PBXBuildFile; fileRef = E53E7ADC196B727100E3FBA0 /* Passage.m */; };
+		E53E7AE2196B846200E3FBA0 /* CirclePassage.m in Sources */ = {isa = PBXBuildFile; fileRef = E53E7AE1196B846200E3FBA0 /* CirclePassage.m */; };
+		E53E7AE3196B846200E3FBA0 /* CirclePassage.m in Sources */ = {isa = PBXBuildFile; fileRef = E53E7AE1196B846200E3FBA0 /* CirclePassage.m */; };
+		E54BA21219743C95009F34C0 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = E54BA21119743C95009F34C0 /* Rectangle.m */; };
+		E54BA21319744070009F34C0 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = E54BA21119743C95009F34C0 /* Rectangle.m */; };
+		E581D5A21949060C00EB3553 /* RevMobAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E581D5A11949060C00EB3553 /* RevMobAds.framework */; };
+		E581D5A41949063900EB3553 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E581D5A31949063900EB3553 /* SystemConfiguration.framework */; };
+		E581D5A81949064D00EB3553 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E581D5A71949064D00EB3553 /* AdSupport.framework */; };
+		E581D5AF19491AB300EB3553 /* AudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E581D5AE19491AB300EB3553 /* AudioPlayer.m */; };
+		E581D5B3194931FC00EB3553 /* RectRotate Music 2 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E581D5B2194931FC00EB3553 /* RectRotate Music 2 4.mp3 */; };
+		E59610B418D947BE00E15BA9 /* Info.png in Resources */ = {isa = PBXBuildFile; fileRef = E59610B318D947BE00E15BA9 /* Info.png */; };
+		E59610B618D947C800E15BA9 /* Play.png in Resources */ = {isa = PBXBuildFile; fileRef = E59610B518D947C800E15BA9 /* Play.png */; };
+		E5B10AF61960AF8300816B15 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B10AF51960AF8300816B15 /* CoreMotion.framework */; };
+		E5B185781961C08500F1C187 /* ColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B185771961C08500F1C187 /* ColorPickerViewController.m */; };
+		E5B9CEDA1949F51400B2EF52 /* OptionsText.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B9CED91949F51400B2EF52 /* OptionsText.png */; };
+		E5BD08361957559100CD82FF /* Appirater.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD08341957559100CD82FF /* Appirater.m */; };
+		E5BD0839195755F400CD82FF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5BD0838195755F400CD82FF /* CFNetwork.framework */; };
+		E5C00949195E466900749047 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C00948195E466900749047 /* AVFoundation.framework */; };
+		E5C00953195F948700749047 /* OCRAStd.otf in Resources */ = {isa = PBXBuildFile; fileRef = E5C00952195F925D00749047 /* OCRAStd.otf */; };
+		E5C00956195F987800749047 /* ButtonMakerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C00955195F987800749047 /* ButtonMakerViewController.m */; };
+		E5C0E2E819A4D00C00DF1954 /* TiltTutorial.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C0E2E619A4D00C00DF1954 /* TiltTutorial.png */; };
+		E5C0E2E919A4D00C00DF1954 /* TiltTutorial.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C0E2E619A4D00C00DF1954 /* TiltTutorial.png */; };
+		E5C0E2EA19A4D00C00DF1954 /* Tutorial.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C0E2E719A4D00C00DF1954 /* Tutorial.png */; };
+		E5C0E2EB19A4D00C00DF1954 /* Tutorial.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C0E2E719A4D00C00DF1954 /* Tutorial.png */; };
+		E5C3A83519699A07005A8380 /* DoubleTiltedBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C492C419689E7500E1C5DE /* DoubleTiltedBlock.m */; };
+		E5C492C519689E7500E1C5DE /* DoubleTiltedBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C492C419689E7500E1C5DE /* DoubleTiltedBlock.m */; };
+		E5C6FE261964B73700671B78 /* Appirater.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD08341957559100CD82FF /* Appirater.m */; };
+		E5C6FE271964B73700671B78 /* ColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B185771961C08500F1C187 /* ColorPickerViewController.m */; };
+		E5C6FE281964B73700671B78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FA7CF718AC4B5D00F9962A /* ViewController.m */; };
+		E5C6FE291964B73700671B78 /* TiltedBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = B31003AB18B3FC4D00B847AD /* TiltedBlock.m */; };
+		E5C6FE2A1964B73700671B78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FA7CEE18AC4B5D00F9962A /* AppDelegate.m */; };
+		E5C6FE2B1964B73700671B78 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D0F00818C66B3F00274B21 /* InfoViewController.m */; };
+		E5C6FE2C1964B73700671B78 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5D0FEE118C8CE29005F846E /* MenuViewController.m */; };
+		E5C6FE2D1964B73700671B78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FA7CEA18AC4B5D00F9962A /* main.m */; };
+		E5C6FE2E1964B73700671B78 /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5D0FEDE18C8AA1E005F846E /* OptionsViewController.m */; };
+		E5C6FE2F1964B73700671B78 /* AudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E581D5AE19491AB300EB3553 /* AudioPlayer.m */; };
+		E5C6FE301964B73700671B78 /* ButtonMakerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C00955195F987800749047 /* ButtonMakerViewController.m */; };
+		E5C6FE321964B73700671B78 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B10AF51960AF8300816B15 /* CoreMotion.framework */; };
+		E5C6FE331964B73700671B78 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C00948195E466900749047 /* AVFoundation.framework */; };
+		E5C6FE341964B73700671B78 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5BD0838195755F400CD82FF /* CFNetwork.framework */; };
+		E5C6FE351964B73700671B78 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E581D5A71949064D00EB3553 /* AdSupport.framework */; };
+		E5C6FE371964B73700671B78 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E581D5A31949063900EB3553 /* SystemConfiguration.framework */; };
+		E5C6FE381964B73700671B78 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FA7CE018AC4B5D00F9962A /* CoreGraphics.framework */; };
+		E5C6FE391964B73700671B78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FA7CE218AC4B5D00F9962A /* UIKit.framework */; };
+		E5C6FE3A1964B73700671B78 /* RevMobAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E581D5A11949060C00EB3553 /* RevMobAds.framework */; };
+		E5C6FE3B1964B73700671B78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FA7CDE18AC4B5D00F9962A /* Foundation.framework */; };
+		E5C6FE3D1964B73700671B78 /* OCRAStd.otf in Resources */ = {isa = PBXBuildFile; fileRef = E5C00952195F925D00749047 /* OCRAStd.otf */; };
+		E5C6FE3E1964B73700671B78 /* 82.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D0FEFD18C8E6FA005F846E /* 82.png */; };
+		E5C6FE3F1964B73700671B78 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3FA7CF318AC4B5D00F9962A /* Main_iPad.storyboard */; };
+		E5C6FE411964B73700671B78 /* Play.png in Resources */ = {isa = PBXBuildFile; fileRef = E59610B518D947C800E15BA9 /* Play.png */; };
+		E5C6FE431964B73700671B78 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3FA7CF918AC4B5D00F9962A /* Images.xcassets */; };
+		E5C6FE441964B73700671B78 /* iPad1xLaunchImageRectRotate.png in Resources */ = {isa = PBXBuildFile; fileRef = E5F7459719466453006D9FFC /* iPad1xLaunchImageRectRotate.png */; };
+		E5C6FE451964B73700671B78 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3FA7CF018AC4B5D00F9962A /* Main_iPhone.storyboard */; };
+		E5C6FE461964B73700671B78 /* 92.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D0FEFF18C8E6FA005F846E /* 92.png */; };
+		E5C6FE471964B73700671B78 /* RectRotate Music 2 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E581D5B2194931FC00EB3553 /* RectRotate Music 2 4.mp3 */; };
+		E5C6FE491964B73700671B78 /* OptionsText.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B9CED91949F51400B2EF52 /* OptionsText.png */; };
+		E5C6FE4F1964B73700671B78 /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D0FEFB18C8E6FA005F846E /* 02.png */; };
+		E5C6FE501964B73700671B78 /* 62.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D0FEFC18C8E6FA005F846E /* 62.png */; };
+		E5C6FE531964B73700671B78 /* 32.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D0FEFA18C8E6FA005F846E /* 32.png */; };
+		E5C6FE541964B73700671B78 /* 42.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D0FF0018C8E6FA005F846E /* 42.png */; };
+		E5C6FE561964B73700671B78 /* Highscore2.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D0FF0D18C8E770005F846E /* Highscore2.png */; };
+		E5C6FE571964B73700671B78 /* 52.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D0FEFE18C8E6FA005F846E /* 52.png */; };
+		E5C6FE5A1964B73700671B78 /* 22.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D0FF0118C8E6FA005F846E /* 22.png */; };
+		E5C6FE5B1964B73700671B78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3FA7CE718AC4B5D00F9962A /* InfoPlist.strings */; };
+		E5C6FE5C1964B73700671B78 /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D0FEF918C8E6FA005F846E /* 12.png */; };
+		E5C6FE5D1964B73700671B78 /* iPadLaunchImageRectRotate.png in Resources */ = {isa = PBXBuildFile; fileRef = E5F745951946632D006D9FFC /* iPadLaunchImageRectRotate.png */; };
+		E5C6FE5F1964B73700671B78 /* 72.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D0FF0218C8E6FA005F846E /* 72.png */; };
+		E5C6FE611964B73700671B78 /* RectRotateLoadingiPhone4inch2.png in Resources */ = {isa = PBXBuildFile; fileRef = E5F74591194605A3006D9FFC /* RectRotateLoadingiPhone4inch2.png */; };
+		E5C6FE621964B73700671B78 /* Info.png in Resources */ = {isa = PBXBuildFile; fileRef = E59610B318D947BE00E15BA9 /* Info.png */; };
+		E5CBCBD11973585A0079FC4C /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CBCBD01973585A0079FC4C /* Settings.m */; };
+		E5CBCBD219736F360079FC4C /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CBCBD01973585A0079FC4C /* Settings.m */; };
+		E5CF33F21967644400BDF807 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CF33F11967644400BDF807 /* Reachability.m */; };
+		E5CF33F31967644400BDF807 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CF33F11967644400BDF807 /* Reachability.m */; };
+		E5D0FEDF18C8AA1E005F846E /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5D0FEDE18C8AA1E005F846E /* OptionsViewController.m */; };
+		E5D0FEE218C8CE29005F846E /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5D0FEE118C8CE29005F846E /* MenuViewController.m */; };
+		E5D0FF0318C8E6FA005F846E /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D0FEF918C8E6FA005F846E /* 12.png */; };
+		E5D0FF0418C8E6FA005F846E /* 32.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D0FEFA18C8E6FA005F846E /* 32.png */; };
+		E5D0FF0518C8E6FA005F846E /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D0FEFB18C8E6FA005F846E /* 02.png */; };
+		E5D0FF0618C8E6FA005F846E /* 62.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D0FEFC18C8E6FA005F846E /* 62.png */; };
+		E5D0FF0718C8E6FA005F846E /* 82.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D0FEFD18C8E6FA005F846E /* 82.png */; };
+		E5D0FF0818C8E6FA005F846E /* 52.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D0FEFE18C8E6FA005F846E /* 52.png */; };
+		E5D0FF0918C8E6FA005F846E /* 92.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D0FEFF18C8E6FA005F846E /* 92.png */; };
+		E5D0FF0A18C8E6FA005F846E /* 42.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D0FF0018C8E6FA005F846E /* 42.png */; };
+		E5D0FF0B18C8E6FA005F846E /* 22.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D0FF0118C8E6FA005F846E /* 22.png */; };
+		E5D0FF0C18C8E6FA005F846E /* 72.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D0FF0218C8E6FA005F846E /* 72.png */; };
+		E5D0FF0E18C8E770005F846E /* Highscore2.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D0FF0D18C8E770005F846E /* Highscore2.png */; };
+		E5D8FCAF1976ECDB0064AEBA /* RectRotateMenuClassiciPod3-inch.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D8FCA91976ECDB0064AEBA /* RectRotateMenuClassiciPod3-inch.png */; };
+		E5D8FCB01976ECDB0064AEBA /* RectRotateMenuClassiciPod3-inch.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D8FCA91976ECDB0064AEBA /* RectRotateMenuClassiciPod3-inch.png */; };
+		E5D8FCB11976ECDB0064AEBA /* RectRotateMenuClassiciPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D8FCAA1976ECDB0064AEBA /* RectRotateMenuClassiciPhone.png */; };
+		E5D8FCB21976ECDB0064AEBA /* RectRotateMenuClassiciPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D8FCAA1976ECDB0064AEBA /* RectRotateMenuClassiciPhone.png */; };
+		E5D8FCB31976ECDB0064AEBA /* RectRotateMenuClassiciPad.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D8FCAB1976ECDB0064AEBA /* RectRotateMenuClassiciPad.png */; };
+		E5D8FCB41976ECDB0064AEBA /* RectRotateMenuClassiciPad.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D8FCAB1976ECDB0064AEBA /* RectRotateMenuClassiciPad.png */; };
+		E5D8FCB51976ECDB0064AEBA /* RectRotateMenuNeoniPad.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D8FCAC1976ECDB0064AEBA /* RectRotateMenuNeoniPad.png */; };
+		E5D8FCB61976ECDB0064AEBA /* RectRotateMenuNeoniPad.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D8FCAC1976ECDB0064AEBA /* RectRotateMenuNeoniPad.png */; };
+		E5D8FCB71976ECDB0064AEBA /* RectRotateMenuNeoniPhone3-inch.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D8FCAD1976ECDB0064AEBA /* RectRotateMenuNeoniPhone3-inch.png */; };
+		E5D8FCB81976ECDB0064AEBA /* RectRotateMenuNeoniPhone3-inch.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D8FCAD1976ECDB0064AEBA /* RectRotateMenuNeoniPhone3-inch.png */; };
+		E5D8FCBC1976ED060064AEBA /* RectRotateMenuNeoniPhone4-inch.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D8FCBB1976ED060064AEBA /* RectRotateMenuNeoniPhone4-inch.png */; };
+		E5D8FCBD1976ED060064AEBA /* RectRotateMenuNeoniPhone4-inch.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D8FCBB1976ED060064AEBA /* RectRotateMenuNeoniPhone4-inch.png */; };
+		E5D8FCC019772EFC0064AEBA /* GameOverView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5D8FCBF19772EFC0064AEBA /* GameOverView.m */; };
+		E5D8FCC119772EFC0064AEBA /* GameOverView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5D8FCBF19772EFC0064AEBA /* GameOverView.m */; };
+		E5F74592194605A3006D9FFC /* RectRotateLoadingiPhone4inch2.png in Resources */ = {isa = PBXBuildFile; fileRef = E5F74591194605A3006D9FFC /* RectRotateLoadingiPhone4inch2.png */; };
+		E5F745961946632D006D9FFC /* iPadLaunchImageRectRotate.png in Resources */ = {isa = PBXBuildFile; fileRef = E5F745951946632D006D9FFC /* iPadLaunchImageRectRotate.png */; };
+		E5F7459819466453006D9FFC /* iPad1xLaunchImageRectRotate.png in Resources */ = {isa = PBXBuildFile; fileRef = E5F7459719466453006D9FFC /* iPad1xLaunchImageRectRotate.png */; };
+		E5F9B909197D79D700BA06F6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5F9B908197D79D700BA06F6 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3FA7D0418AC4B5D00F9962A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3FA7CD318AC4B5C00F9962A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3FA7CDA18AC4B5C00F9962A;
+			remoteInfo = Rectangular;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B31003AA18B3FC4C00B847AD /* TiltedBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiltedBlock.h; sourceTree = "<group>"; };
+		B31003AB18B3FC4D00B847AD /* TiltedBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiltedBlock.m; sourceTree = "<group>"; };
+		B3D0F00718C66B3F00274B21 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		B3D0F00818C66B3F00274B21 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		B3FA7CDB18AC4B5C00F9962A /* RectRotate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RectRotate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3FA7CDE18AC4B5D00F9962A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B3FA7CE018AC4B5D00F9962A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B3FA7CE218AC4B5D00F9962A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B3FA7CE618AC4B5D00F9962A /* RectRotate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RectRotate-Info.plist"; sourceTree = "<group>"; };
+		B3FA7CE818AC4B5D00F9962A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3FA7CEA18AC4B5D00F9962A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3FA7CEC18AC4B5D00F9962A /* RectRotate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RectRotate-Prefix.pch"; sourceTree = "<group>"; };
+		B3FA7CED18AC4B5D00F9962A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B3FA7CEE18AC4B5D00F9962A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B3FA7CF118AC4B5D00F9962A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		B3FA7CF418AC4B5D00F9962A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		B3FA7CF618AC4B5D00F9962A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B3FA7CF718AC4B5D00F9962A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B3FA7CF918AC4B5D00F9962A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B3FA7CFF18AC4B5D00F9962A /* RectRotateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RectRotateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3FA7D0018AC4B5D00F9962A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B3FA7D0818AC4B5D00F9962A /* RectRotateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RectRotateTests-Info.plist"; sourceTree = "<group>"; };
+		B3FA7D0A18AC4B5D00F9962A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3FA7D0C18AC4B5D00F9962A /* RectangularTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RectangularTests.m; sourceTree = "<group>"; };
+		E5250FF319641228008720E6 /* RectRotateLite-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RectRotateLite-Info.plist"; sourceTree = "<group>"; };
+		E5250FF519641228008720E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E5250FF719641228008720E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5250FF919641228008720E6 /* RectRotateLite-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RectRotateLite-Prefix.pch"; sourceTree = "<group>"; };
+		E5250FFA19641228008720E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E5250FFB19641228008720E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E5250FFE19641228008720E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		E525100119641228008720E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		E525100319641228008720E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E525100419641228008720E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E525100619641228008720E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E525101419641228008720E6 /* RectRotateLiteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RectRotateLiteTests-Info.plist"; sourceTree = "<group>"; };
+		E525101619641228008720E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E525101819641228008720E6 /* RectRotateLiteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RectRotateLiteTests.m; sourceTree = "<group>"; };
+		E525102F1964134C008720E6 /* RectRotateLite-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RectRotateLite-Info.plist"; sourceTree = "<group>"; };
+		E53E7ADB196B727100E3FBA0 /* Passage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Passage.h; sourceTree = "<group>"; };
+		E53E7ADC196B727100E3FBA0 /* Passage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Passage.m; sourceTree = "<group>"; };
+		E53E7AE0196B846200E3FBA0 /* CirclePassage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CirclePassage.h; sourceTree = "<group>"; };
+		E53E7AE1196B846200E3FBA0 /* CirclePassage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CirclePassage.m; sourceTree = "<group>"; };
+		E54BA21019743C95009F34C0 /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		E54BA21119743C95009F34C0 /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
+		E581D5A11949060C00EB3553 /* RevMobAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RevMobAds.framework; sourceTree = "<group>"; };
+		E581D5A31949063900EB3553 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E581D5A71949064D00EB3553 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		E581D5AD19491AB300EB3553 /* AudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayer.h; sourceTree = "<group>"; };
+		E581D5AE19491AB300EB3553 /* AudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlayer.m; sourceTree = "<group>"; };
+		E581D5B2194931FC00EB3553 /* RectRotate Music 2 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "RectRotate Music 2 4.mp3"; sourceTree = "<group>"; };
+		E59610B318D947BE00E15BA9 /* Info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Info.png; sourceTree = "<group>"; };
+		E59610B518D947C800E15BA9 /* Play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Play.png; sourceTree = "<group>"; };
+		E5B10AF51960AF8300816B15 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		E5B185761961C08500F1C187 /* ColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerViewController.h; sourceTree = "<group>"; };
+		E5B185771961C08500F1C187 /* ColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPickerViewController.m; sourceTree = "<group>"; };
+		E5B9CED91949F51400B2EF52 /* OptionsText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OptionsText.png; sourceTree = "<group>"; };
+		E5BD08331957559100CD82FF /* Appirater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appirater.h; sourceTree = "<group>"; };
+		E5BD08341957559100CD82FF /* Appirater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Appirater.m; sourceTree = "<group>"; };
+		E5BD08351957559100CD82FF /* AppiraterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppiraterDelegate.h; sourceTree = "<group>"; };
+		E5BD0838195755F400CD82FF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		E5C00948195E466900749047 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E5C00952195F925D00749047 /* OCRAStd.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = OCRAStd.otf; path = ../OCRAStd.otf; sourceTree = "<group>"; };
+		E5C00954195F987800749047 /* ButtonMakerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonMakerViewController.h; sourceTree = "<group>"; };
+		E5C00955195F987800749047 /* ButtonMakerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonMakerViewController.m; sourceTree = "<group>"; };
+		E5C0E2E619A4D00C00DF1954 /* TiltTutorial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TiltTutorial.png; sourceTree = "<group>"; };
+		E5C0E2E719A4D00C00DF1954 /* Tutorial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tutorial.png; sourceTree = "<group>"; };
+		E5C492C319689E7500E1C5DE /* DoubleTiltedBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleTiltedBlock.h; sourceTree = "<group>"; };
+		E5C492C419689E7500E1C5DE /* DoubleTiltedBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleTiltedBlock.m; sourceTree = "<group>"; };
+		E5C6FE661964B73700671B78 /* RectRotateLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RectRotateLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5CBCBCF1973585A0079FC4C /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		E5CBCBD01973585A0079FC4C /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		E5CF33F01967644400BDF807 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		E5CF33F11967644400BDF807 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		E5D0FEDD18C8AA1E005F846E /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
+		E5D0FEDE18C8AA1E005F846E /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
+		E5D0FEE018C8CE29005F846E /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		E5D0FEE118C8CE29005F846E /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		E5D0FEF918C8E6FA005F846E /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
+		E5D0FEFA18C8E6FA005F846E /* 32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 32.png; sourceTree = "<group>"; };
+		E5D0FEFB18C8E6FA005F846E /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
+		E5D0FEFC18C8E6FA005F846E /* 62.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 62.png; sourceTree = "<group>"; };
+		E5D0FEFD18C8E6FA005F846E /* 82.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 82.png; sourceTree = "<group>"; };
+		E5D0FEFE18C8E6FA005F846E /* 52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 52.png; sourceTree = "<group>"; };
+		E5D0FEFF18C8E6FA005F846E /* 92.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 92.png; sourceTree = "<group>"; };
+		E5D0FF0018C8E6FA005F846E /* 42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 42.png; sourceTree = "<group>"; };
+		E5D0FF0118C8E6FA005F846E /* 22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 22.png; sourceTree = "<group>"; };
+		E5D0FF0218C8E6FA005F846E /* 72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 72.png; sourceTree = "<group>"; };
+		E5D0FF0D18C8E770005F846E /* Highscore2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Highscore2.png; sourceTree = "<group>"; };
+		E5D8FCA91976ECDB0064AEBA /* RectRotateMenuClassiciPod3-inch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RectRotateMenuClassiciPod3-inch.png"; sourceTree = "<group>"; };
+		E5D8FCAA1976ECDB0064AEBA /* RectRotateMenuClassiciPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RectRotateMenuClassiciPhone.png; sourceTree = "<group>"; };
+		E5D8FCAB1976ECDB0064AEBA /* RectRotateMenuClassiciPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RectRotateMenuClassiciPad.png; sourceTree = "<group>"; };
+		E5D8FCAC1976ECDB0064AEBA /* RectRotateMenuNeoniPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RectRotateMenuNeoniPad.png; sourceTree = "<group>"; };
+		E5D8FCAD1976ECDB0064AEBA /* RectRotateMenuNeoniPhone3-inch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RectRotateMenuNeoniPhone3-inch.png"; sourceTree = "<group>"; };
+		E5D8FCBB1976ED060064AEBA /* RectRotateMenuNeoniPhone4-inch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RectRotateMenuNeoniPhone4-inch.png"; sourceTree = "<group>"; };
+		E5D8FCBE19772EFC0064AEBA /* GameOverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverView.h; sourceTree = "<group>"; };
+		E5D8FCBF19772EFC0064AEBA /* GameOverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverView.m; sourceTree = "<group>"; };
+		E5F74591194605A3006D9FFC /* RectRotateLoadingiPhone4inch2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RectRotateLoadingiPhone4inch2.png; sourceTree = "<group>"; };
+		E5F745951946632D006D9FFC /* iPadLaunchImageRectRotate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadLaunchImageRectRotate.png; sourceTree = "<group>"; };
+		E5F7459719466453006D9FFC /* iPad1xLaunchImageRectRotate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPad1xLaunchImageRectRotate.png; sourceTree = "<group>"; };
+		E5F9B908197D79D700BA06F6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3FA7CD818AC4B5C00F9962A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5F9B909197D79D700BA06F6 /* CoreLocation.framework in Frameworks */,
+				E5B10AF61960AF8300816B15 /* CoreMotion.framework in Frameworks */,
+				E5C00949195E466900749047 /* AVFoundation.framework in Frameworks */,
+				E5BD0839195755F400CD82FF /* CFNetwork.framework in Frameworks */,
+				E581D5A81949064D00EB3553 /* AdSupport.framework in Frameworks */,
+				E581D5A41949063900EB3553 /* SystemConfiguration.framework in Frameworks */,
+				B3FA7CE118AC4B5D00F9962A /* CoreGraphics.framework in Frameworks */,
+				B3FA7CE318AC4B5D00F9962A /* UIKit.framework in Frameworks */,
+				E581D5A21949060C00EB3553 /* RevMobAds.framework in Frameworks */,
+				B3FA7CDF18AC4B5D00F9962A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3FA7CFC18AC4B5D00F9962A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FA7D0118AC4B5D00F9962A /* XCTest.framework in Frameworks */,
+				B3FA7D0318AC4B5D00F9962A /* UIKit.framework in Frameworks */,
+				B3FA7D0218AC4B5D00F9962A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5C6FE311964B73700671B78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5C6FE321964B73700671B78 /* CoreMotion.framework in Frameworks */,
+				E5C6FE331964B73700671B78 /* AVFoundation.framework in Frameworks */,
+				E5C6FE341964B73700671B78 /* CFNetwork.framework in Frameworks */,
+				E5C6FE351964B73700671B78 /* AdSupport.framework in Frameworks */,
+				E5C6FE371964B73700671B78 /* SystemConfiguration.framework in Frameworks */,
+				E5C6FE381964B73700671B78 /* CoreGraphics.framework in Frameworks */,
+				E5C6FE391964B73700671B78 /* UIKit.framework in Frameworks */,
+				E5C6FE3A1964B73700671B78 /* RevMobAds.framework in Frameworks */,
+				E5C6FE3B1964B73700671B78 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3FA7CD218AC4B5C00F9962A = {
+			isa = PBXGroup;
+			children = (
+				E5D8FCA91976ECDB0064AEBA /* RectRotateMenuClassiciPod3-inch.png */,
+				E5D8FCAA1976ECDB0064AEBA /* RectRotateMenuClassiciPhone.png */,
+				E5D8FCAB1976ECDB0064AEBA /* RectRotateMenuClassiciPad.png */,
+				E5D8FCAC1976ECDB0064AEBA /* RectRotateMenuNeoniPad.png */,
+				E5D8FCAD1976ECDB0064AEBA /* RectRotateMenuNeoniPhone3-inch.png */,
+				E5D8FCBB1976ED060064AEBA /* RectRotateMenuNeoniPhone4-inch.png */,
+				E581D5B2194931FC00EB3553 /* RectRotate Music 2 4.mp3 */,
+				E59610B518D947C800E15BA9 /* Play.png */,
+				E59610B318D947BE00E15BA9 /* Info.png */,
+				E5D0FF0D18C8E770005F846E /* Highscore2.png */,
+				E5B9CED91949F51400B2EF52 /* OptionsText.png */,
+				E5F74591194605A3006D9FFC /* RectRotateLoadingiPhone4inch2.png */,
+				E5F7459719466453006D9FFC /* iPad1xLaunchImageRectRotate.png */,
+				E5F745951946632D006D9FFC /* iPadLaunchImageRectRotate.png */,
+				E5C0E2E619A4D00C00DF1954 /* TiltTutorial.png */,
+				E5C0E2E719A4D00C00DF1954 /* Tutorial.png */,
+				B3FA7CE418AC4B5D00F9962A /* Rectangular */,
+				B3FA7D0618AC4B5D00F9962A /* RectangularTests */,
+				E5250FF119641228008720E6 /* RectRotateLite */,
+				E525101219641228008720E6 /* RectRotateLiteTests */,
+				B3FA7CDD18AC4B5C00F9962A /* Frameworks */,
+				B3FA7CDC18AC4B5C00F9962A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3FA7CDC18AC4B5C00F9962A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3FA7CDB18AC4B5C00F9962A /* RectRotate.app */,
+				B3FA7CFF18AC4B5D00F9962A /* RectRotateTests.xctest */,
+				E5C6FE661964B73700671B78 /* RectRotateLite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3FA7CDD18AC4B5C00F9962A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5F9B908197D79D700BA06F6 /* CoreLocation.framework */,
+				E5B10AF51960AF8300816B15 /* CoreMotion.framework */,
+				E5C00948195E466900749047 /* AVFoundation.framework */,
+				E5BD0838195755F400CD82FF /* CFNetwork.framework */,
+				E581D5A71949064D00EB3553 /* AdSupport.framework */,
+				E581D5A31949063900EB3553 /* SystemConfiguration.framework */,
+				E581D5A11949060C00EB3553 /* RevMobAds.framework */,
+				B3FA7CDE18AC4B5D00F9962A /* Foundation.framework */,
+				B3FA7CE018AC4B5D00F9962A /* CoreGraphics.framework */,
+				B3FA7CE218AC4B5D00F9962A /* UIKit.framework */,
+				B3FA7D0018AC4B5D00F9962A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3FA7CE418AC4B5D00F9962A /* Rectangular */ = {
+			isa = PBXGroup;
+			children = (
+				E52C66F9194882BF00B39117 /* Highscore Numbers */,
+				B3FA7CED18AC4B5D00F9962A /* AppDelegate.h */,
+				B3FA7CEE18AC4B5D00F9962A /* AppDelegate.m */,
+				E5BD08371957559700CD82FF /* Appirater */,
+				B3FA7CF018AC4B5D00F9962A /* Main_iPhone.storyboard */,
+				E54BA21019743C95009F34C0 /* Rectangle.h */,
+				E54BA21119743C95009F34C0 /* Rectangle.m */,
+				E5D8FCBE19772EFC0064AEBA /* GameOverView.h */,
+				E5D8FCBF19772EFC0064AEBA /* GameOverView.m */,
+				E5CBCBCF1973585A0079FC4C /* Settings.h */,
+				E5CBCBD01973585A0079FC4C /* Settings.m */,
+				E5B185761961C08500F1C187 /* ColorPickerViewController.h */,
+				E5B185771961C08500F1C187 /* ColorPickerViewController.m */,
+				E5C00954195F987800749047 /* ButtonMakerViewController.h */,
+				E5C00955195F987800749047 /* ButtonMakerViewController.m */,
+				B3D0F00718C66B3F00274B21 /* InfoViewController.h */,
+				B3D0F00818C66B3F00274B21 /* InfoViewController.m */,
+				B3FA7CF318AC4B5D00F9962A /* Main_iPad.storyboard */,
+				E5D0FEE018C8CE29005F846E /* MenuViewController.h */,
+				E5D0FEE118C8CE29005F846E /* MenuViewController.m */,
+				B3FA7CF618AC4B5D00F9962A /* ViewController.h */,
+				B3FA7CF718AC4B5D00F9962A /* ViewController.m */,
+				E5D0FEDD18C8AA1E005F846E /* OptionsViewController.h */,
+				E5D0FEDE18C8AA1E005F846E /* OptionsViewController.m */,
+				E53E7ADF196B7D9500E3FBA0 /* Passage Classes */,
+				E581D5AD19491AB300EB3553 /* AudioPlayer.h */,
+				E581D5AE19491AB300EB3553 /* AudioPlayer.m */,
+				E5CF33F01967644400BDF807 /* Reachability.h */,
+				E5CF33F11967644400BDF807 /* Reachability.m */,
+				B3FA7CF918AC4B5D00F9962A /* Images.xcassets */,
+				B3FA7CE518AC4B5D00F9962A /* Supporting Files */,
+			);
+			path = Rectangular;
+			sourceTree = "<group>";
+		};
+		B3FA7CE518AC4B5D00F9962A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5C00952195F925D00749047 /* OCRAStd.otf */,
+				E525102F1964134C008720E6 /* RectRotateLite-Info.plist */,
+				B3FA7CE618AC4B5D00F9962A /* RectRotate-Info.plist */,
+				B3FA7CE718AC4B5D00F9962A /* InfoPlist.strings */,
+				B3FA7CEA18AC4B5D00F9962A /* main.m */,
+				B3FA7CEC18AC4B5D00F9962A /* RectRotate-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3FA7D0618AC4B5D00F9962A /* RectangularTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3FA7D0C18AC4B5D00F9962A /* RectangularTests.m */,
+				B3FA7D0718AC4B5D00F9962A /* Supporting Files */,
+			);
+			path = RectangularTests;
+			sourceTree = "<group>";
+		};
+		B3FA7D0718AC4B5D00F9962A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3FA7D0818AC4B5D00F9962A /* RectRotateTests-Info.plist */,
+				B3FA7D0918AC4B5D00F9962A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5250FF119641228008720E6 /* RectRotateLite */ = {
+			isa = PBXGroup;
+			children = (
+				E5250FFA19641228008720E6 /* AppDelegate.h */,
+				E5250FFB19641228008720E6 /* AppDelegate.m */,
+				E5250FFD19641228008720E6 /* Main_iPhone.storyboard */,
+				E525100019641228008720E6 /* Main_iPad.storyboard */,
+				E525100319641228008720E6 /* ViewController.h */,
+				E525100419641228008720E6 /* ViewController.m */,
+				E525100619641228008720E6 /* Images.xcassets */,
+				E5250FF219641228008720E6 /* Supporting Files */,
+			);
+			path = RectRotateLite;
+			sourceTree = "<group>";
+		};
+		E5250FF219641228008720E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5250FF319641228008720E6 /* RectRotateLite-Info.plist */,
+				E5250FF419641228008720E6 /* InfoPlist.strings */,
+				E5250FF719641228008720E6 /* main.m */,
+				E5250FF919641228008720E6 /* RectRotateLite-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E525101219641228008720E6 /* RectRotateLiteTests */ = {
+			isa = PBXGroup;
+			children = (
+				E525101819641228008720E6 /* RectRotateLiteTests.m */,
+				E525101319641228008720E6 /* Supporting Files */,
+			);
+			path = RectRotateLiteTests;
+			sourceTree = "<group>";
+		};
+		E525101319641228008720E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E525101419641228008720E6 /* RectRotateLiteTests-Info.plist */,
+				E525101519641228008720E6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E52C66F9194882BF00B39117 /* Highscore Numbers */ = {
+			isa = PBXGroup;
+			children = (
+				E5D0FEFA18C8E6FA005F846E /* 32.png */,
+				E5D0FEF918C8E6FA005F846E /* 12.png */,
+				E5D0FEFB18C8E6FA005F846E /* 02.png */,
+				E5D0FEFC18C8E6FA005F846E /* 62.png */,
+				E5D0FEFD18C8E6FA005F846E /* 82.png */,
+				E5D0FEFE18C8E6FA005F846E /* 52.png */,
+				E5D0FEFF18C8E6FA005F846E /* 92.png */,
+				E5D0FF0018C8E6FA005F846E /* 42.png */,
+				E5D0FF0118C8E6FA005F846E /* 22.png */,
+				E5D0FF0218C8E6FA005F846E /* 72.png */,
+			);
+			name = "Highscore Numbers";
+			sourceTree = "<group>";
+		};
+		E53E7ADF196B7D9500E3FBA0 /* Passage Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E53E7ADB196B727100E3FBA0 /* Passage.h */,
+				E53E7ADC196B727100E3FBA0 /* Passage.m */,
+				B31003AA18B3FC4C00B847AD /* TiltedBlock.h */,
+				B31003AB18B3FC4D00B847AD /* TiltedBlock.m */,
+				E5C492C319689E7500E1C5DE /* DoubleTiltedBlock.h */,
+				E5C492C419689E7500E1C5DE /* DoubleTiltedBlock.m */,
+				E53E7AE0196B846200E3FBA0 /* CirclePassage.h */,
+				E53E7AE1196B846200E3FBA0 /* CirclePassage.m */,
+			);
+			name = "Passage Classes";
+			sourceTree = "<group>";
+		};
+		E5BD08371957559700CD82FF /* Appirater */ = {
+			isa = PBXGroup;
+			children = (
+				E5BD08351957559100CD82FF /* AppiraterDelegate.h */,
+				E5BD08341957559100CD82FF /* Appirater.m */,
+				E5BD08331957559100CD82FF /* Appirater.h */,
+			);
+			name = Appirater;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3FA7CDA18AC4B5C00F9962A /* RectRotate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3FA7D1018AC4B5D00F9962A /* Build configuration list for PBXNativeTarget "RectRotate" */;
+			buildPhases = (
+				B3FA7CD718AC4B5C00F9962A /* Sources */,
+				B3FA7CD818AC4B5C00F9962A /* Frameworks */,
+				B3FA7CD918AC4B5C00F9962A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RectRotate;
+			productName = Rectangular;
+			productReference = B3FA7CDB18AC4B5C00F9962A /* RectRotate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3FA7CFE18AC4B5D00F9962A /* RectRotateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3FA7D1318AC4B5D00F9962A /* Build configuration list for PBXNativeTarget "RectRotateTests" */;
+			buildPhases = (
+				B3FA7CFB18AC4B5D00F9962A /* Sources */,
+				B3FA7CFC18AC4B5D00F9962A /* Frameworks */,
+				B3FA7CFD18AC4B5D00F9962A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3FA7D0518AC4B5D00F9962A /* PBXTargetDependency */,
+			);
+			name = RectRotateTests;
+			productName = RectangularTests;
+			productReference = B3FA7CFF18AC4B5D00F9962A /* RectRotateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E5C6FE241964B73700671B78 /* RectRotateLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5C6FE631964B73700671B78 /* Build configuration list for PBXNativeTarget "RectRotateLite" */;
+			buildPhases = (
+				E5C6FE251964B73700671B78 /* Sources */,
+				E5C6FE311964B73700671B78 /* Frameworks */,
+				E5C6FE3C1964B73700671B78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RectRotateLite;
+			productName = Rectangular;
+			productReference = E5C6FE661964B73700671B78 /* RectRotateLite.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3FA7CD318AC4B5C00F9962A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Samuel Noyes";
+				TargetAttributes = {
+					B3FA7CDA18AC4B5C00F9962A = {
+						DevelopmentTeam = E2KD9S85Z6;
+					};
+					B3FA7CFE18AC4B5D00F9962A = {
+						TestTargetID = B3FA7CDA18AC4B5C00F9962A;
+					};
+					E5C6FE241964B73700671B78 = {
+						DevelopmentTeam = E2KD9S85Z6;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = B3FA7CD618AC4B5C00F9962A /* Build configuration list for PBXProject "RectRotate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = B3FA7CD218AC4B5C00F9962A;
+			productRefGroup = B3FA7CDC18AC4B5C00F9962A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3FA7CDA18AC4B5C00F9962A /* RectRotate */,
+				B3FA7CFE18AC4B5D00F9962A /* RectRotateTests */,
+				E5C6FE241964B73700671B78 /* RectRotateLite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3FA7CD918AC4B5C00F9962A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5C00953195F948700749047 /* OCRAStd.otf in Resources */,
+				E5D0FF0718C8E6FA005F846E /* 82.png in Resources */,
+				B3FA7CF518AC4B5D00F9962A /* Main_iPad.storyboard in Resources */,
+				E59610B618D947C800E15BA9 /* Play.png in Resources */,
+				B3FA7CFA18AC4B5D00F9962A /* Images.xcassets in Resources */,
+				E5F7459819466453006D9FFC /* iPad1xLaunchImageRectRotate.png in Resources */,
+				B3FA7CF218AC4B5D00F9962A /* Main_iPhone.storyboard in Resources */,
+				E5D0FF0918C8E6FA005F846E /* 92.png in Resources */,
+				E5D8FCAF1976ECDB0064AEBA /* RectRotateMenuClassiciPod3-inch.png in Resources */,
+				E5C0E2EA19A4D00C00DF1954 /* Tutorial.png in Resources */,
+				E581D5B3194931FC00EB3553 /* RectRotate Music 2 4.mp3 in Resources */,
+				E5B9CEDA1949F51400B2EF52 /* OptionsText.png in Resources */,
+				E5D0FF0518C8E6FA005F846E /* 02.png in Resources */,
+				E5D0FF0618C8E6FA005F846E /* 62.png in Resources */,
+				E5D8FCB51976ECDB0064AEBA /* RectRotateMenuNeoniPad.png in Resources */,
+				E5D0FF0418C8E6FA005F846E /* 32.png in Resources */,
+				E5D0FF0A18C8E6FA005F846E /* 42.png in Resources */,
+				E5D0FF0E18C8E770005F846E /* Highscore2.png in Resources */,
+				E5D0FF0818C8E6FA005F846E /* 52.png in Resources */,
+				E5D8FCBC1976ED060064AEBA /* RectRotateMenuNeoniPhone4-inch.png in Resources */,
+				E5D0FF0B18C8E6FA005F846E /* 22.png in Resources */,
+				B3FA7CE918AC4B5D00F9962A /* InfoPlist.strings in Resources */,
+				E5D8FCB31976ECDB0064AEBA /* RectRotateMenuClassiciPad.png in Resources */,
+				E5C0E2E819A4D00C00DF1954 /* TiltTutorial.png in Resources */,
+				E5D0FF0318C8E6FA005F846E /* 12.png in Resources */,
+				E5F745961946632D006D9FFC /* iPadLaunchImageRectRotate.png in Resources */,
+				E5D0FF0C18C8E6FA005F846E /* 72.png in Resources */,
+				E5D8FCB11976ECDB0064AEBA /* RectRotateMenuClassiciPhone.png in Resources */,
+				E5F74592194605A3006D9FFC /* RectRotateLoadingiPhone4inch2.png in Resources */,
+				E5D8FCB71976ECDB0064AEBA /* RectRotateMenuNeoniPhone3-inch.png in Resources */,
+				E59610B418D947BE00E15BA9 /* Info.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3FA7CFD18AC4B5D00F9962A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FA7D0B18AC4B5D00F9962A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5C6FE3C1964B73700671B78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5C6FE3D1964B73700671B78 /* OCRAStd.otf in Resources */,
+				E5C6FE3E1964B73700671B78 /* 82.png in Resources */,
+				E5C6FE3F1964B73700671B78 /* Main_iPad.storyboard in Resources */,
+				E5C6FE411964B73700671B78 /* Play.png in Resources */,
+				E5C6FE431964B73700671B78 /* Images.xcassets in Resources */,
+				E5C6FE441964B73700671B78 /* iPad1xLaunchImageRectRotate.png in Resources */,
+				E5C6FE451964B73700671B78 /* Main_iPhone.storyboard in Resources */,
+				E5C6FE461964B73700671B78 /* 92.png in Resources */,
+				E5D8FCB01976ECDB0064AEBA /* RectRotateMenuClassiciPod3-inch.png in Resources */,
+				E5C0E2EB19A4D00C00DF1954 /* Tutorial.png in Resources */,
+				E5C6FE471964B73700671B78 /* RectRotate Music 2 4.mp3 in Resources */,
+				E5C6FE491964B73700671B78 /* OptionsText.png in Resources */,
+				E5C6FE4F1964B73700671B78 /* 02.png in Resources */,
+				E5C6FE501964B73700671B78 /* 62.png in Resources */,
+				E5D8FCB61976ECDB0064AEBA /* RectRotateMenuNeoniPad.png in Resources */,
+				E5C6FE531964B73700671B78 /* 32.png in Resources */,
+				E5C6FE541964B73700671B78 /* 42.png in Resources */,
+				E5C6FE561964B73700671B78 /* Highscore2.png in Resources */,
+				E5C6FE571964B73700671B78 /* 52.png in Resources */,
+				E5D8FCBD1976ED060064AEBA /* RectRotateMenuNeoniPhone4-inch.png in Resources */,
+				E5C6FE5A1964B73700671B78 /* 22.png in Resources */,
+				E5C6FE5B1964B73700671B78 /* InfoPlist.strings in Resources */,
+				E5D8FCB41976ECDB0064AEBA /* RectRotateMenuClassiciPad.png in Resources */,
+				E5C0E2E919A4D00C00DF1954 /* TiltTutorial.png in Resources */,
+				E5C6FE5C1964B73700671B78 /* 12.png in Resources */,
+				E5C6FE5D1964B73700671B78 /* iPadLaunchImageRectRotate.png in Resources */,
+				E5C6FE5F1964B73700671B78 /* 72.png in Resources */,
+				E5D8FCB21976ECDB0064AEBA /* RectRotateMenuClassiciPhone.png in Resources */,
+				E5C6FE611964B73700671B78 /* RectRotateLoadingiPhone4inch2.png in Resources */,
+				E5D8FCB81976ECDB0064AEBA /* RectRotateMenuNeoniPhone3-inch.png in Resources */,
+				E5C6FE621964B73700671B78 /* Info.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3FA7CD718AC4B5C00F9962A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5BD08361957559100CD82FF /* Appirater.m in Sources */,
+				E53E7AE2196B846200E3FBA0 /* CirclePassage.m in Sources */,
+				E5B185781961C08500F1C187 /* ColorPickerViewController.m in Sources */,
+				B3FA7CF818AC4B5D00F9962A /* ViewController.m in Sources */,
+				B31003AC18B3FC4D00B847AD /* TiltedBlock.m in Sources */,
+				E53E7ADD196B727100E3FBA0 /* Passage.m in Sources */,
+				E5CBCBD11973585A0079FC4C /* Settings.m in Sources */,
+				B3FA7CEF18AC4B5D00F9962A /* AppDelegate.m in Sources */,
+				B3D0F00918C66B3F00274B21 /* InfoViewController.m in Sources */,
+				E5C492C519689E7500E1C5DE /* DoubleTiltedBlock.m in Sources */,
+				E5D0FEE218C8CE29005F846E /* MenuViewController.m in Sources */,
+				B3FA7CEB18AC4B5D00F9962A /* main.m in Sources */,
+				E5D0FEDF18C8AA1E005F846E /* OptionsViewController.m in Sources */,
+				E581D5AF19491AB300EB3553 /* AudioPlayer.m in Sources */,
+				E5D8FCC019772EFC0064AEBA /* GameOverView.m in Sources */,
+				E5CF33F21967644400BDF807 /* Reachability.m in Sources */,
+				E54BA21219743C95009F34C0 /* Rectangle.m in Sources */,
+				E5C00956195F987800749047 /* ButtonMakerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3FA7CFB18AC4B5D00F9962A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FA7D0D18AC4B5D00F9962A /* RectangularTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5C6FE251964B73700671B78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E54BA21319744070009F34C0 /* Rectangle.m in Sources */,
+				E5CBCBD219736F360079FC4C /* Settings.m in Sources */,
+				E53E7AE3196B846200E3FBA0 /* CirclePassage.m in Sources */,
+				E5C3A83519699A07005A8380 /* DoubleTiltedBlock.m in Sources */,
+				E5C6FE261964B73700671B78 /* Appirater.m in Sources */,
+				E5C6FE271964B73700671B78 /* ColorPickerViewController.m in Sources */,
+				E5C6FE281964B73700671B78 /* ViewController.m in Sources */,
+				E5C6FE291964B73700671B78 /* TiltedBlock.m in Sources */,
+				E5C6FE2A1964B73700671B78 /* AppDelegate.m in Sources */,
+				E5C6FE2B1964B73700671B78 /* InfoViewController.m in Sources */,
+				E5C6FE2C1964B73700671B78 /* MenuViewController.m in Sources */,
+				E5C6FE2D1964B73700671B78 /* main.m in Sources */,
+				E5C6FE2E1964B73700671B78 /* OptionsViewController.m in Sources */,
+				E5C6FE2F1964B73700671B78 /* AudioPlayer.m in Sources */,
+				E5D8FCC119772EFC0064AEBA /* GameOverView.m in Sources */,
+				E53E7ADE196B727100E3FBA0 /* Passage.m in Sources */,
+				E5CF33F31967644400BDF807 /* Reachability.m in Sources */,
+				E5C6FE301964B73700671B78 /* ButtonMakerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3FA7D0518AC4B5D00F9962A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3FA7CDA18AC4B5C00F9962A /* RectRotate */;
+			targetProxy = B3FA7D0418AC4B5D00F9962A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3FA7CE718AC4B5D00F9962A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3FA7CE818AC4B5D00F9962A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B3FA7CF018AC4B5D00F9962A /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3FA7CF118AC4B5D00F9962A /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B3FA7CF318AC4B5D00F9962A /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3FA7CF418AC4B5D00F9962A /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B3FA7D0918AC4B5D00F9962A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3FA7D0A18AC4B5D00F9962A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E5250FF419641228008720E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5250FF519641228008720E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E5250FFD19641228008720E6 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5250FFE19641228008720E6 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		E525100019641228008720E6 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E525100119641228008720E6 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		E525101519641228008720E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E525101619641228008720E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3FA7D0E18AC4B5D00F9962A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3FA7D0F18AC4B5D00F9962A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3FA7D1118AC4B5D00F9962A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconFull;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_NS_ASSERTIONS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rectangular/RectRotate-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = (
+					"DEBUG=1",
+					"$(inherited)",
+					FULL,
+				);
+				INFOPLIST_FILE = "Rectangular/RectRotate-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Rectangular",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = RectRotate;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B3FA7D1218AC4B5D00F9962A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconFull;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rectangular/RectRotate-Prefix.pch";
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = FULL;
+				INFOPLIST_FILE = "Rectangular/RectRotate-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Rectangular",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = RectRotate;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B3FA7D1418AC4B5D00F9962A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RectRotate.app/RectRotate";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rectangular/Rectangular-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RectangularTests/RectRotateTests-Info.plist";
+				PRODUCT_NAME = RectRotateTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B3FA7D1518AC4B5D00F9962A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RectRotate.app/RectRotate";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rectangular/Rectangular-Prefix.pch";
+				INFOPLIST_FILE = "RectangularTests/RectRotateTests-Info.plist";
+				PRODUCT_NAME = RectRotateTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		E5C6FE641964B73700671B78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconLite;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rectangular/RectRotate-Prefix.pch";
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = (
+					"DEBUG=1",
+					"$(inherited)",
+					LITE,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Rectangular/RectRotateLite-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = RectRotateLite;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E5C6FE651964B73700671B78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconLite;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rectangular/RectRotate-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = LITE;
+				INFOPLIST_FILE = "$(SRCROOT)/Rectangular/RectRotateLite-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = RectRotateLite;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3FA7CD618AC4B5C00F9962A /* Build configuration list for PBXProject "RectRotate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3FA7D0E18AC4B5D00F9962A /* Debug */,
+				B3FA7D0F18AC4B5D00F9962A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3FA7D1018AC4B5D00F9962A /* Build configuration list for PBXNativeTarget "RectRotate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3FA7D1118AC4B5D00F9962A /* Debug */,
+				B3FA7D1218AC4B5D00F9962A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3FA7D1318AC4B5D00F9962A /* Build configuration list for PBXNativeTarget "RectRotateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3FA7D1418AC4B5D00F9962A /* Debug */,
+				B3FA7D1518AC4B5D00F9962A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5C6FE631964B73700671B78 /* Build configuration list for PBXNativeTarget "RectRotateLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5C6FE641964B73700671B78 /* Debug */,
+				E5C6FE651964B73700671B78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3FA7CD318AC4B5C00F9962A /* Project object */;
+}
